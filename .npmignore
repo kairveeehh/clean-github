@@ -1,0 +1,19 @@
+
+node_modules
+# Ignore environment files
+.env
+
+# Ignore local config files
+*.local.js
+*.local.json
+
+# Ignore tests and docs if you want
+tests/
+docs/
+
+# Ignore source files if you only publish built code (optional)
+
+# Ignore config files not needed by users
+.vscode/
+.gitignore
+npm-debug.log

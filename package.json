@@ -1,0 +1,27 @@
+{
+  "name": "clean-github",
+  "version": "1.0.5",
+  "description": "CLI to delete GitHub repos or PRs using OAuth",
+  "bin": {
+    "clean-github": "bin/index.js"
+  },
+  "scripts": {
+    "dev": "ts-node src/main.ts",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": ["cli", "github", "delete", "repos", "pr"],
+  "author": "Kaiirvee",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "chalk": "^4.0.0",
+    "dotenv": "^16.3.1",
+ "inquirer": "^8.2.4",
+     "open": "^8.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}
